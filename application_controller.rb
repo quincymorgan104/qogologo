@@ -1,5 +1,6 @@
 require 'bundler'
 Bundler.require
+require_relative "models/model.rb"
 
 class ApplicationController < Sinatra::Base
 
@@ -8,7 +9,7 @@ class ApplicationController < Sinatra::Base
   end
   post '/result' do
     bday=params[:bday]
-    birthday(bday)
+    @sign=birthday(bday)
     erb :result
   end
   
