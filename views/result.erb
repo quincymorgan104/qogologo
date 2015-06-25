@@ -2,12 +2,12 @@
 <link rel="stylesheet" tyle="text/css" href = "css/style.css">
 <html>
 <head>
-  <title>Your zodiac sign is <%="#{zodiac}"%></title>
+  <title>Your zodiac sign is <%=@sign[0]%></title>
 </head>
 <body>
-  <h1>Your Zodiac Sign is <%="#{zodiac}"%>! </h1>
-  <h3> The dates for this sign are <%="#{date}%></h2>
-  <h5><%="#{horoscope}%><h5>
+  <h1>Your Zodiac Sign is <%=@sign[0]%>! </h1>
+  <h3> The dates for this sign are <%=@sign[1]%></h2>
+  <h5><%=@sign[2]%><h5>
 
 </body>
 </html>
