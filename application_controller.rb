@@ -7,7 +7,8 @@ class ApplicationController < Sinatra::Base
     erb :index
   end
   post '/result' do
-    @bday=params[:bday]
+    bday=params[:bday]
+    birthday(bday)
     erb :result
   end
   
