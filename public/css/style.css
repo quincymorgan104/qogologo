@@ -1,13 +1,31 @@
 
 h1{
-  font-familly:Lobster;
- color: ;
-}
-
-h2{
+  font-family:Lobster;
+ color: #FFFF94;
+  font-size: 100px;
   
 }
+h3{
+  font-size:24;
+}
+h2{ 
+  font-size: 70px;
+    font-family:Lobster;
+      color:#FFFF94;
+  
+}
+form{
+  font-size: 50px;
+    font-family:Lobster;
+  color: #FFFF94;
+}
 body{
-  font-familly:  ;
-  color:  ;
+  background-image: url("http://images.forwallpaper.com/files/images/8/847f/847f3010/236652/universe-the-universe-stars-space-constellations-planets-nebula.jpg");
+  font-family:Open Sans;
+  color:#FFFF94;
+  text-align: center;
+  font-size:30px;
+}
+a{
+  color:white;
 }

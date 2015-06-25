@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" tyle="text/css" href = "css/style.css">
-<link rel="stylesheet" tyle="text/js" href = "js/java.js">
-
-<html>
-<head>
-  <script type="text/javascript">
+<script type="text/javascript">
 // <![CDATA[
 var colour="#FFFFA3";
 var sparkles=120;
@@ -177,19 +170,3 @@ function createDiv(height, width) {
 // ]]>
 </script>
 
-
-<title>Zodiac Sign</title>
-</head>
-<body>
-  <h1> What is your Zodiac sign?</h1>
-<form action="/result" method="post"> 
-  Enter your birthdate!<br>
-  <input type="date" name="bday" max="2015-12-31"><br>
-<input type="submit"> 
-</form>
-
-
-
-
-</body>
-</html>
