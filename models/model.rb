@@ -62,7 +62,7 @@ def birthday(bday)
     elsif @bday >=923 && @bday <=1022
     @zodiac="Libra"
     @date="From September 23rd to October 22nd"
-    @horoscope=""I balance" is the key phrase for this sign, and when it comes to keeping everything on an even keel, a Libran will lead the pack. Peace loving and judicial, this sign abhors being alone. Partnerships are very important for the Libran, especially those on a personal level. With their winning personalities and cooperative style, they aren't apt to be alone for long!"
+    @horoscope="'I balance' is the key phrase for this sign, and when it comes to keeping everything on an even keel, a Libran will lead the pack. Peace loving and judicial, this sign abhors being alone. Partnerships are very important for the Libran, especially those on a personal level. With their winning personalities and cooperative style, they aren't apt to be alone for long!"
     libra=[@zodiac, @date, @horoscope]
     return libra
     
@@ -80,7 +80,7 @@ def birthday(bday)
     sagittarius=[@zodiac, @date, @horoscope]
     return sagittarius
     
-    elsif @bday >=1222 && @bday <=0119
+  elsif @bday >=1222 && @bday <=1231 || @bday>=101 && @bday <=119
     @zodiac="Capricorn"
     @date="From December 22nd to January 19th"
     @horoscope="When it comes to professionalism and traditional values, Capricorn wins hands-down. This practical sign loves to tackle life in the most conventional of ways, leaving no stone unturned. Considered the most serious-minded of the signs, the Capricorn possesses an independence that allows for considerable progress both personally and on the job."
