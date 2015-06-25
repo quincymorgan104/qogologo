@@ -20,7 +20,7 @@ form{
   color: #FFFF94;
 }
 body{
-  background-image: url("http://images.forwallpaper.com/files/images/8/847f/847f3010/236652/universe-the-universe-stars-space-constellations-planets-nebula.jpg");
+  background-image: url("");
   font-family:Open Sans;
   color:#FFFF94;
   text-align: center;
@@ -28,4 +28,8 @@ body{
 }
 a{
   color:white;
+}
+#input1{
+  font-family:lobster;
+  font-size: 30px;
 }
