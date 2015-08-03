@@ -7,11 +7,20 @@ class ApplicationController < Sinatra::Base
   get '/' do
     erb :index
   end
-  post '/result' do
-    bday=params[:bday]
-    @sign=birthday(bday)
+  get '/result' do
+ 
     erb :result
   end
+  get '/work' do
+ 
+    erb :work
+  end
   
-
+get '/what' do
+ 
+    erb :what
+  end
 end
+
+
+
